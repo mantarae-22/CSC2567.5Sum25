@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="slideshow.css">
+</head>
+<body>
+    <header>
+        <h1>Enjoy the slideshow of beach themed images</h1>
+    </header>
+
+    <main>
+        <!-- container for the slideshow -->
+        <div id="slideshow">
+            <!-- the JavaScript code is going to handle everything related to the image for easy changing of the image paths -->
+            <img src="" class="slide" alt="Decorative slideshow" id="imgSlide">
+        </div>
+
+        <!-- buttons to handle slide navigation -->
+        <div class="buttons">
+            <button onclick="prevSlide();">Previous</button>
+            <button onclick="nextSlide();">Next</button>
+        </div>
+    </main>
+
+    <script src="slideshow.js">       
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(226, 244, 250);
+    color: rgb(30, 30, 148);
+}
+header{
+    text-align: center;
+}
+#slideshow{
+    width: 500px;
+    /* may need to specify height */
+
+    /* try to center the div with 20px top/bottom margin; left + right should be centered automagically by the browser */
+    margin: 20px auto;
+    text-align: center;
+}
+
+.slide{
+    width: 100%;
+    border-radius: 10px;
+}
+
+button{
+    background-color: navy;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.buttons{
+    margin: 5px auto;
+    text-align: center;
+}
